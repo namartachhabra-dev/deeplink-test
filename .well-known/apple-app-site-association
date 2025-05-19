@@ -7,6 +7,7 @@
         {
             "appIDs": ["FVQ7629G77.com.altice.optimumDev", "FVQ7629G77.com.optimum.cma.dev", "FVQ7629G77.com.optimum.cma.stage", "FVQ7629G77.com.optimum.cma"],
             "components": [
+{"/": "/inapp/*", "comment": "Matches any URL whose path starts with /inapp/anylink"},
                 {
                     "/": "/inapp/paybill",
                     "comment": "Matches any URL whose path starts with /inapp/paybill"
