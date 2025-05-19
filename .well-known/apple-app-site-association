@@ -8,16 +8,16 @@
             "appIDs": ["FVQ7629G77.com.altice.optimumDev", "FVQ7629G77.com.optimum.cma.dev", "FVQ7629G77.com.optimum.cma.stage", "FVQ7629G77.com.optimum.cma"],
             "components": [
                 {
+                    "/": "/inapp/paybill",
+                    "comment": "Matches any URL whose path starts with /inapp/paybill"
+                },
+		{
                     "/": "/inapp/chat",
                     "comment": "Matches any URL whose path starts with /inapp/chat"
                 },
 		{
-                    "/": "/inapp/PayBill",
-                    "comment": "Matches any URL whose path starts with /inapp/PayBill"
-                },
-		{
-                    "/": "/inapp/ViewBill",
-                    "comment": "Matches any URL whose path starts with /inapp/ViewBill"
+                    "/": "/inapp/viewbill",
+                    "comment": "Matches any URL whose path starts with /inapp/viewbill"
                 }
             ]
         }
