@@ -10,6 +10,14 @@
                 {
                     "/": "/inapp/chat",
                     "comment": "Matches any URL whose path starts with /inapp/chat"
+                },
+		{
+                    "/": "/inapp/PayBill",
+                    "comment": "Matches any URL whose path starts with /inapp/PayBill"
+                },
+		{
+                    "/": "/inapp/ViewBill",
+                    "comment": "Matches any URL whose path starts with /inapp/ViewBill"
                 }
             ]
         }
