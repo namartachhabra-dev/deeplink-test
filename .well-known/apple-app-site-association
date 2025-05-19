@@ -9,16 +9,14 @@
             "components": [
 {"/": "/inapp/*", "comment": "Matches any URL whose path starts with /inapp/anylink"},
                 {
-                    "/": "/inapp/paybill",
-                    "comment": "Matches any URL whose path starts with /inapp/paybill"
+                    "/": "/bill/pay"
                 },
 		{
                     "/": "/inapp/chat",
                     "comment": "Matches any URL whose path starts with /inapp/chat"
                 },
 		{
-                    "/": "/inapp/viewbill",
-                    "comment": "Matches any URL whose path starts with /inapp/viewbill"
+                    "/": "/bill/view"
                 }
             ]
         }
